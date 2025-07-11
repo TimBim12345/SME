@@ -1,0 +1,71 @@
+{
+  "banks": [
+    {
+      "id": "sber",
+      "name": "Сбербанк",
+      "color": "#00A651",
+      "market_share": 35.2
+    },
+    {
+      "id": "vtb",
+      "name": "ВТБ",
+      "color": "#0066CC",
+      "market_share": 18.7
+    },
+    {
+      "id": "alpha",
+      "name": "Альфа-Банк",
+      "color": "#EF3124",
+      "market_share": 12.4
+    },
+    {
+      "id": "tinkoff",
+      "name": "Тинькофф Банк",
+      "color": "#FFDD2D",
+      "market_share": 8.9
+    },
+    {
+      "id": "gazprom",
+      "name": "Газпромбанк",
+      "color": "#005BAA",
+      "market_share": 6.8
+    },
+    {
+      "id": "rosbank",
+      "name": "Росбанк",
+      "color": "#C41E3A",
+      "market_share": 4.2
+    },
+    {
+      "id": "raiffeisen",
+      "name": "Райффайзенбанк",
+      "color": "#FFED00",
+      "market_share": 3.1
+    },
+    {
+      "id": "unicredit",
+      "name": "ЮниКредит Банк",
+      "color": "#E60012",
+      "market_share": 2.8
+    },
+    {
+      "id": "otkritie",
+      "name": "Банк «Открытие»",
+      "color": "#0099CC",
+      "market_share": 2.5
+    },
+    {
+      "id": "promsvyaz",
+      "name": "Промсвязьбанк",
+      "color": "#FF6600",
+      "market_share": 2.1
+    },
+    {
+      "id": "other",
+      "name": "Другие банки",
+      "color": "#999999",
+      "market_share": 3.3
+    }
+  ]
+}
+

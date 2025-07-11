@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визуализация рынка предпринимателей России</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Экран загрузки -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-message">Загрузка данных...</div>
+            <div class="loading-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Основной контейнер -->
+    <div id="main-container" class="main-container" style="display: none;">
+        <!-- Заголовок -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="header-title">
+                    <span class="title-icon">🌌</span>
+                    Рынок предпринимателей России
+                </h1>
+                <div class="header-subtitle">
+                    Интерактивная 3D визуализация ~6 млн компаний МСП
+                </div>
+            </div>
+        </header>
+
+        <!-- Основная область -->
+        <main class="main-content">
+            <!-- Панель управления -->
+            <div id="controls-panel" class="controls-panel">
+                <div class="control-group">
+                    <h3>Управление</h3>
+                    <button id="mode-toggle" class="control-button primary">
+                        Режим карты
+                    </button>
+                    <button id="reset-view" class="control-button">
+                        Сбросить вид
+                    </button>
+                </div>
+                
+                <div class="control-group">
+                    <h3>Масштаб</h3>
+                    <button id="zoom-in" class="control-button">
+                        Приблизить
+                    </button>
+                    <button id="zoom-out" class="control-button">
+                        Отдалить
+                    </button>
+                </div>
+                
+                <div class="control-group">
+                    <h3>Поиск</h3>
+                    <div class="search-container">
+                        <input 
+                            type="text" 
+                            id="search-input" 
+                            class="search-input" 
+                            placeholder="Поиск по регионам, отраслям..."
+                        >
+                        <div id="search-results" class="search-results"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3D Сцена -->
+            <div id="scene-3d" class="scene-3d"></div>
+
+            <!-- Панель фильтров -->
+            <div id="filters-panel" class="filters-panel">
+                <div class="panel-header">
+                    <h2>Фильтры</h2>
+                    <button id="clear-filters" class="clear-filters-button">
+                        Очистить все
+                    </button>
+                </div>
+                
+                <div class="filters-content">
+                    <div id="revenue-filters" class="filter-section">
+                        <h4>По размеру выручки</h4>
+                        <!-- Фильтры будут добавлены динамически -->
+                    </div>
+                    
+                    <div id="industry-filters" class="filter-section">
+                        <h4>По отраслям</h4>
+                        <!-- Фильтры будут добавлены динамически -->
+                    </div>
+                    
+                    <div id="region-filters" class="filter-section">
+                        <h4>По регионам</h4>
+                        <!-- Фильтры будут добавлены динамически -->
+                    </div>
+                    
+                    <div id="bank-filters" class="filter-section">
+                        <h4>По банкам</h4>
+                        <!-- Фильтры будут добавлены динамически -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Панель статистики -->
+        <div id="stats-panel" class="stats-panel">
+            <div class="panel-header">
+                <h2>Статистика</h2>
+            </div>
+            
+            <div class="stats-content">
+                <div class="stat-item">
+                    <div class="stat-label">Всего компаний</div>
+                    <div id="total-companies" class="stat-value">0</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-label">Групп данных</div>
+                    <div id="total-groups" class="stat-value">0</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-label">Активные фильтры</div>
+                    <div id="active-filters" class="active-filters">
+                        <span class="no-filters">Фильтры не применены</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Легенда -->
+        <div class="legend">
+            <h3>Легенда</h3>
+            <div class="legend-items">
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #64b5f6;"></div>
+                    <span>0-5 млн руб (Микро)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #42a5f5;"></div>
+                    <span>5-20 млн руб (Малые)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #2196f3;"></div>
+                    <span>20-80 млн руб (Средние малые)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #1976d2;"></div>
+                    <span>80-400 млн руб (Крупные малые)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #1565c0;"></div>
+                    <span>400+ млн руб (Средние)</span>
+                </div>
+            </div>
+            
+            <div class="legend-note">
+                <p><strong>Размер звезды</strong> — количество компаний в группе</p>
+                <p><strong>Цвет</strong> — категория по размеру выручки</p>
+                <p><strong>Управление:</strong> мышь для вращения, колесо для масштаба</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подключение библиотек -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Модули приложения -->
+    <script src="js/data-manager.js"></script>
+    <script src="js/scene3d.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+

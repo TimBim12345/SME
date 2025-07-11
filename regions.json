@@ -1,0 +1,586 @@
+{
+  "regions": [
+    {
+      "code": "01",
+      "name": "Республика Адыгея",
+      "federal_district": "ЮФО",
+      "coordinates": { "lat": 44.6939, "lon": 40.1520 },
+      "population": 463453
+    },
+    {
+      "code": "02",
+      "name": "Республика Башкортостан",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 54.7431, "lon": 55.9678 },
+      "population": 4037811
+    },
+    {
+      "code": "03",
+      "name": "Республика Бурятия",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 53.2141, "lon": 107.6422 },
+      "population": 985930
+    },
+    {
+      "code": "04",
+      "name": "Республика Алтай",
+      "federal_district": "СФО",
+      "coordinates": { "lat": 50.7114, "lon": 86.8571 },
+      "population": 220181
+    },
+    {
+      "code": "05",
+      "name": "Республика Дагестан",
+      "federal_district": "СКФО",
+      "coordinates": { "lat": 42.9849, "lon": 47.5047 },
+      "population": 3110858
+    },
+    {
+      "code": "06",
+      "name": "Республика Ингушетия",
+      "federal_district": "СКФО",
+      "coordinates": { "lat": 43.2220, "lon": 45.0187 },
+      "population": 509541
+    },
+    {
+      "code": "07",
+      "name": "Кабардино-Балкарская Республика",
+      "federal_district": "СКФО",
+      "coordinates": { "lat": 43.4806, "lon": 43.5978 },
+      "population": 868348
+    },
+    {
+      "code": "08",
+      "name": "Республика Калмыкия",
+      "federal_district": "ЮФО",
+      "coordinates": { "lat": 46.3078, "lon": 44.2551 },
+      "population": 272534
+    },
+    {
+      "code": "09",
+      "name": "Карачаево-Черкесская Республика",
+      "federal_district": "СКФО",
+      "coordinates": { "lat": 43.7681, "lon": 41.9216 },
+      "population": 469865
+    },
+    {
+      "code": "10",
+      "name": "Республика Карелия",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 61.7849, "lon": 34.3469 },
+      "population": 618056
+    },
+    {
+      "code": "11",
+      "name": "Республика Коми",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 64.5401, "lon": 54.5293 },
+      "population": 820475
+    },
+    {
+      "code": "12",
+      "name": "Республика Марий Эл",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 56.5987, "lon": 47.8748 },
+      "population": 682333
+    },
+    {
+      "code": "13",
+      "name": "Республика Мордовия",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 54.1838, "lon": 45.1749 },
+      "population": 795841
+    },
+    {
+      "code": "14",
+      "name": "Республика Саха (Якутия)",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 66.7557, "lon": 124.7144 },
+      "population": 995686
+    },
+    {
+      "code": "15",
+      "name": "Республика Северная Осетия — Алания",
+      "federal_district": "СКФО",
+      "coordinates": { "lat": 43.0370, "lon": 44.6830 },
+      "population": 687357
+    },
+    {
+      "code": "16",
+      "name": "Республика Татарстан",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 55.7887, "lon": 49.1221 },
+      "population": 4004809
+    },
+    {
+      "code": "17",
+      "name": "Республика Тыва",
+      "federal_district": "СФО",
+      "coordinates": { "lat": 51.7191, "lon": 94.8467 },
+      "population": 336651
+    },
+    {
+      "code": "18",
+      "name": "Удмуртская Республика",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 57.0000, "lon": 53.0000 },
+      "population": 1493298
+    },
+    {
+      "code": "19",
+      "name": "Республика Хакасия",
+      "federal_district": "СФО",
+      "coordinates": { "lat": 53.7557, "lon": 91.4297 },
+      "population": 534262
+    },
+    {
+      "code": "20",
+      "name": "Чеченская Республика",
+      "federal_district": "СКФО",
+      "coordinates": { "lat": 43.3169, "lon": 45.6986 },
+      "population": 1510824
+    },
+    {
+      "code": "21",
+      "name": "Чувашская Республика",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 55.5004, "lon": 47.2483 },
+      "population": 1204646
+    },
+    {
+      "code": "22",
+      "name": "Алтайский край",
+      "federal_district": "СФО",
+      "coordinates": { "lat": 53.3478, "lon": 83.7798 },
+      "population": 2317162
+    },
+    {
+      "code": "23",
+      "name": "Краснодарский край",
+      "federal_district": "ЮФО",
+      "coordinates": { "lat": 45.0355, "lon": 38.9753 },
+      "population": 5675507
+    },
+    {
+      "code": "24",
+      "name": "Красноярский край",
+      "federal_district": "СФО",
+      "coordinates": { "lat": 64.0685, "lon": 100.6068 },
+      "population": 2855899
+    },
+    {
+      "code": "25",
+      "name": "Приморский край",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 45.0000, "lon": 135.0000 },
+      "population": 1895900
+    },
+    {
+      "code": "26",
+      "name": "Ставропольский край",
+      "federal_district": "СКФО",
+      "coordinates": { "lat": 45.0428, "lon": 41.9734 },
+      "population": 2800674
+    },
+    {
+      "code": "27",
+      "name": "Хабаровский край",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 58.0174, "lon": 138.3811 },
+      "population": 1315643
+    },
+    {
+      "code": "28",
+      "name": "Амурская область",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 53.5775, "lon": 127.5405 },
+      "population": 790668
+    },
+    {
+      "code": "29",
+      "name": "Архангельская область",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 64.5401, "lon": 40.5433 },
+      "population": 1155021
+    },
+    {
+      "code": "30",
+      "name": "Астраханская область",
+      "federal_district": "ЮФО",
+      "coordinates": { "lat": 46.3497, "lon": 48.0408 },
+      "population": 996548
+    },
+    {
+      "code": "31",
+      "name": "Белгородская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 50.5951, "lon": 36.5879 },
+      "population": 1540486
+    },
+    {
+      "code": "32",
+      "name": "Брянская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 53.2434, "lon": 34.3656 },
+      "population": 1192481
+    },
+    {
+      "code": "33",
+      "name": "Владимирская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 56.1366, "lon": 40.3966 },
+      "population": 1343888
+    },
+    {
+      "code": "34",
+      "name": "Волгоградская область",
+      "federal_district": "ЮФО",
+      "coordinates": { "lat": 48.7080, "lon": 44.5133 },
+      "population": 2500781
+    },
+    {
+      "code": "35",
+      "name": "Вологодская область",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 59.2239, "lon": 39.8843 },
+      "population": 1176689
+    },
+    {
+      "code": "36",
+      "name": "Воронежская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 51.6720, "lon": 39.1843 },
+      "population": 2308792
+    },
+    {
+      "code": "37",
+      "name": "Ивановская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 57.0000, "lon": 41.0000 },
+      "population": 1014646
+    },
+    {
+      "code": "38",
+      "name": "Иркутская область",
+      "federal_district": "СФО",
+      "coordinates": { "lat": 57.0000, "lon": 104.0000 },
+      "population": 2391216
+    },
+    {
+      "code": "39",
+      "name": "Калининградская область",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 54.7065, "lon": 20.5110 },
+      "population": 1027678
+    },
+    {
+      "code": "40",
+      "name": "Калужская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 54.5293, "lon": 36.2754 },
+      "population": 1014570
+    },
+    {
+      "code": "41",
+      "name": "Камчатский край",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 56.8431, "lon": 158.6475 },
+      "population": 314695
+    },
+    {
+      "code": "42",
+      "name": "Кемеровская область",
+      "federal_district": "СФО",
+      "coordinates": { "lat": 55.3331, "lon": 86.0833 },
+      "population": 2657077
+    },
+    {
+      "code": "43",
+      "name": "Кировская область",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 58.6035, "lon": 49.6679 },
+      "population": 1254877
+    },
+    {
+      "code": "44",
+      "name": "Костромская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 57.7665, "lon": 40.9265 },
+      "population": 636932
+    },
+    {
+      "code": "45",
+      "name": "Курганская область",
+      "federal_district": "УФО",
+      "coordinates": { "lat": 55.4500, "lon": 65.3333 },
+      "population": 832334
+    },
+    {
+      "code": "46",
+      "name": "Курская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 51.7373, "lon": 36.1873 },
+      "population": 1115220
+    },
+    {
+      "code": "47",
+      "name": "Ленинградская область",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 60.0000, "lon": 32.0000 },
+      "population": 1813816
+    },
+    {
+      "code": "48",
+      "name": "Липецкая область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 52.6031, "lon": 39.5708 },
+      "population": 1143224
+    },
+    {
+      "code": "49",
+      "name": "Магаданская область",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 62.5000, "lon": 154.0000 },
+      "population": 141104
+    },
+    {
+      "code": "50",
+      "name": "Московская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 55.5815, "lon": 36.8251 },
+      "population": 7690863
+    },
+    {
+      "code": "51",
+      "name": "Мурманская область",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 68.9585, "lon": 33.0827 },
+      "population": 741511
+    },
+    {
+      "code": "52",
+      "name": "Нижегородская область",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 56.3287, "lon": 44.0020 },
+      "population": 3176931
+    },
+    {
+      "code": "53",
+      "name": "Новгородская область",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 58.5220, "lon": 31.2690 },
+      "population": 606476
+    },
+    {
+      "code": "54",
+      "name": "Новосибирская область",
+      "federal_district": "СФО",
+      "coordinates": { "lat": 55.0415, "lon": 82.9346 },
+      "population": 2798170
+    },
+    {
+      "code": "55",
+      "name": "Омская область",
+      "federal_district": "СФО",
+      "coordinates": { "lat": 55.0000, "lon": 73.4000 },
+      "population": 1926665
+    },
+    {
+      "code": "56",
+      "name": "Оренбургская область",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 51.7727, "lon": 55.0988 },
+      "population": 1977720
+    },
+    {
+      "code": "57",
+      "name": "Орловская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 52.9651, "lon": 36.0785 },
+      "population": 747247
+    },
+    {
+      "code": "58",
+      "name": "Пензенская область",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 53.2001, "lon": 45.0000 },
+      "population": 1318875
+    },
+    {
+      "code": "59",
+      "name": "Пермский край",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 58.0105, "lon": 56.2502 },
+      "population": 2599301
+    },
+    {
+      "code": "60",
+      "name": "Псковская область",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 57.8136, "lon": 28.3496 },
+      "population": 636546
+    },
+    {
+      "code": "61",
+      "name": "Ростовская область",
+      "federal_district": "ЮФО",
+      "coordinates": { "lat": 47.2357, "lon": 39.7015 },
+      "population": 4220452
+    },
+    {
+      "code": "62",
+      "name": "Рязанская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 54.6269, "lon": 39.6916 },
+      "population": 1115693
+    },
+    {
+      "code": "63",
+      "name": "Самарская область",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 53.2001, "lon": 50.1500 },
+      "population": 3156317
+    },
+    {
+      "code": "64",
+      "name": "Саратовская область",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 51.5406, "lon": 46.0086 },
+      "population": 2442575
+    },
+    {
+      "code": "65",
+      "name": "Сахалинская область",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 50.0000, "lon": 143.0000 },
+      "population": 490181
+    },
+    {
+      "code": "66",
+      "name": "Свердловская область",
+      "federal_district": "УФО",
+      "coordinates": { "lat": 56.8431, "lon": 60.6454 },
+      "population": 4268998
+    },
+    {
+      "code": "67",
+      "name": "Смоленская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 54.7818, "lon": 32.0401 },
+      "population": 953187
+    },
+    {
+      "code": "68",
+      "name": "Тамбовская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 52.7213, "lon": 41.4520 },
+      "population": 1033552
+    },
+    {
+      "code": "69",
+      "name": "Тверская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 56.8587, "lon": 35.9176 },
+      "population": 1269636
+    },
+    {
+      "code": "70",
+      "name": "Томская область",
+      "federal_district": "СФО",
+      "coordinates": { "lat": 58.5000, "lon": 82.5000 },
+      "population": 1077048
+    },
+    {
+      "code": "71",
+      "name": "Тульская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 54.1961, "lon": 37.6182 },
+      "population": 1466127
+    },
+    {
+      "code": "72",
+      "name": "Тюменская область",
+      "federal_district": "УФО",
+      "coordinates": { "lat": 57.1522, "lon": 65.5272 },
+      "population": 1537945
+    },
+    {
+      "code": "73",
+      "name": "Ульяновская область",
+      "federal_district": "ПФО",
+      "coordinates": { "lat": 54.3200, "lon": 48.4026 },
+      "population": 1231711
+    },
+    {
+      "code": "74",
+      "name": "Челябинская область",
+      "federal_district": "УФО",
+      "coordinates": { "lat": 55.1644, "lon": 61.4368 },
+      "population": 3466353
+    },
+    {
+      "code": "75",
+      "name": "Забайкальский край",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 52.0000, "lon": 117.0000 },
+      "population": 1059700
+    },
+    {
+      "code": "76",
+      "name": "Ярославская область",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 57.6261, "lon": 39.8845 },
+      "population": 1265674
+    },
+    {
+      "code": "77",
+      "name": "г. Москва",
+      "federal_district": "ЦФО",
+      "coordinates": { "lat": 55.7558, "lon": 37.6176 },
+      "population": 12678079
+    },
+    {
+      "code": "78",
+      "name": "г. Санкт-Петербург",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 59.9311, "lon": 30.3609 },
+      "population": 5398064
+    },
+    {
+      "code": "79",
+      "name": "Еврейская автономная область",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 48.8000, "lon": 132.9000 },
+      "population": 160185
+    },
+    {
+      "code": "83",
+      "name": "Ненецкий автономный округ",
+      "federal_district": "СЗФО",
+      "coordinates": { "lat": 67.6380, "lon": 53.0069 },
+      "population": 44084
+    },
+    {
+      "code": "86",
+      "name": "Ханты-Мансийский автономный округ — Югра",
+      "federal_district": "УФО",
+      "coordinates": { "lat": 61.0000, "lon": 69.0000 },
+      "population": 1711480
+    },
+    {
+      "code": "87",
+      "name": "Чукотский автономный округ",
+      "federal_district": "ДФО",
+      "coordinates": { "lat": 66.0000, "lon": 170.0000 },
+      "population": 50555
+    },
+    {
+      "code": "89",
+      "name": "Ямало-Ненецкий автономный округ",
+      "federal_district": "УФО",
+      "coordinates": { "lat": 66.5000, "lon": 66.5000 },
+      "population": 544269
+    }
+  ]
+}
+
